@@ -1,0 +1,10 @@
+body{
+    background-image: url(50.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}

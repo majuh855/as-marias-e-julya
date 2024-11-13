@@ -1,0 +1,85 @@
+.ferreira{
+    display: flex;
+    background-color: #445161;
+    justify-content: center;
+
+}
+h1{
+    color: aliceblue;
+}
+.ajuda{
+    display: flex;
+    height: 50px;
+    width: 800px;
+    background-color: #445161;
+    justify-content: center;
+    align-items: center;
+}
+.jp{
+    display: flex;
+    height: 50px;
+    width: 100%;
+    justify-content: center;
+}
+.alves{
+    background-color: #445161;
+}
+h2{
+    color: aliceblue;
+  
+}
+.barata{
+display: flex;
+flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    justify-content: space-around;
+    background-color:#36404d ;
+    width:800px ;
+    border: #36404d 3px solid;
+}
+.mosquito{
+    display: flex;
+    justify-content: center;
+    background-color:#36404d ;
+    width:800px ;
+    justify-content: space-around;
+    border: #36404d 3px solid;
+}
+.vespa{
+    display: flex;
+    flex-wrap: nowrap;
+    background-color:#36404d ;
+    justify-content: center;
+    width:800px ;
+    justify-content: space-around;
+    border: #36404d 3px solid;
+}
+.uva{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+  
+    
+}
+img{
+    border: #36404d 3px solid;
+}
+#coca{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: nowrap;
+}
+#fanta{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: nowrap;
+
+}
+.guarara{
+    display: flex;
+}

@@ -1,0 +1,10 @@
+body{
+    background-image: url(canva.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+html,body{
+    height: 1080px;
+    width: 1000px;
+}

@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+
+
+    <style>
+
+        *{
+            margin: 0px;
+        }
+
+        #erro {
+            color: rgb(243, 159, 159);
+        }
+
+        html,
+        body {
+            height: 100%;
+            width: 100%;
+        }
+
+        body {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background-image: url(img.jpg);
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+
+        .lia {
+            display: flex;
+            height: 700px;
+            align-content: center;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            flex-wrap: nowrap;
+            border-radius: 50px;
+            background-color: rgba(255, 255, 255, 0.61);
+            width: 400px;
+        
+
+        }
+
+        #btm {
+            background-color: white;
+            color: black;
+            border-radius: 10px;
+            height: 25px;
+            width: 70px;
+        }
+
+        .input {
+            border-radius: 10px;
+            background-color: white;
+            color: black;
+            height: 30px;
+            width: 250px;
+        }
+
+        h3{
+            color: #084c4e;
+        }
+
+        h2 {
+            color: rgb(2, 0, 3);
+            font-size: 20px;
+        }
+
+        h1 {
+            color: rgb(1, 0, 2);
+            font-family: 'Trebuchet MS';
+        }
+
+        a{
+            text-decoration: none;
+        }
+
+    </style>
+
+
+
+
+<script>
+
+
+    function victor() {
+
+        var usuario = document.getElementById("usuario").value;
+        var senha = document.getElementById("senha").value;
+
+        if (usuario == "admin" && senha == "123") 
+        {
+            window.location.href = "pgi.html";
+        }
+        else 
+        {
+            document.getElementById("erro").innerHTML = "Erro no usuario ou senha!";
+        }
+
+    }
+
+
+</script>
+
+
+
+</head>
+
+<body>
+
+    <div class="lia">
+
+        <div>
+            <h1 style="font-size: 50px;">Login</h1>
+
+        </div>
+        
+        <br><br>
+
+        <div>
+            <input class="input" placeholder="Usuario" type="text" id="usuario">
+        </div>
+        
+        <br><br>
+
+        <div>
+            <input class="input" placeholder="Senha" type="password" id="senha">
+        </div><br> <br>
+
+        <div>
+            <button id="btm" onclick="victor()">Enviar</button>
+        </div><br> <br>
+
+        <div>
+            <p id="erro"></p>
+        </div>
+
+        <div>
+            <h2>Lembrar senha</h2>
+        </div>
+
+        <div>
+            <input type="checkbox">
+        </div>
+
+        <div>
+            <a href="cadastro.html">
+                <h3>Não tenho cadastro</h3>
+            </a>
+        </div>
+
+    </div>
+
+</body>
+
+</html>

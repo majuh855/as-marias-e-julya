@@ -1,0 +1,39 @@
+body{
+    background-color:  #0a4a79;
+}
+.item{
+    transition: .35s;
+    cursor: pointer;
+    background-color: white;
+    width: 200px;
+    height: 200px;
+    margin: 50px;
+    float: left;
+    border-radius: 20px;
+}
+.container:hover > :not(:hover){
+    opacity: .4;
+    transform: scale(0.9);
+    display: flex;
+
+}
+#principal{
+    width: 100%;
+    height: 80%;
+    display: flex;
+}
+#cabecalho{
+    height: 10%;
+    width: 100%;
+}
+#rodape{
+    height: 10%;
+    width: 100%;
+}
+h1{
+    color: #fff;
+}
+#isso{
+    display: flex;
+    justify-content: center;
+}
